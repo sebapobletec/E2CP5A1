@@ -1,8 +1,11 @@
 Algoritmo Ejercicio3
-	Escribir "Ingrese un número:"
+	
+	Escribir "Ingrese un número mayor que 0:"
 	Leer num
+	
 	counter = 0
 	divisor = 1
+	
 	Para divisor<-1 Hasta num Con Paso 1 Hacer
 		si num%divisor=0
 			counter = counter + 1
